@@ -36,13 +36,16 @@ gem 'rails_12factor', group: :production
 
 gem 'newrelic_rpm'
 
+gem 'foreman'
+gem 'puma'
+
 # gem 'thin'
 
 # Use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.0.0'
 
 # Use unicorn as the app server
-gem 'unicorn'
+# gem 'unicorn'
 
 # Use Capistrano for deployment
 # gem 'capistrano', group: :development
